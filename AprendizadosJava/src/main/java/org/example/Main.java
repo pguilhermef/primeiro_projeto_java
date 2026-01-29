@@ -11,7 +11,7 @@ public class Main {
         boolean appEmExecucao = true;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite seu nome e acesse sua conta:");
+        System.out.println("Digite um nome para sua conta:");
         titular = scanner.nextLine();
 
         ContaBancaria contaUm = new ContaBancaria(titular);
